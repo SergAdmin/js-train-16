@@ -171,6 +171,7 @@ function traceBackward(n) {
   // Виводимо поточне число n.
   // Якщо n є більше 1, викликаємо функцію traceBackward знову з аргументом n - 1.
   // Виведемо стек викликів, коли досягнемо 1.
+  console.log(n);
   if (n > 1) {
     traceBackward(n - 1);
   }
